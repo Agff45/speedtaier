@@ -24,7 +24,7 @@ UA_DOWN = ("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 "
            "(KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36")
 UA_UP = "Dalvik/1.6.0 (Linux; U; Android 4.2.2; GT-I9505 Build/JDQ39)"
 BOUNDARY = "00content0boundary00"
-DEFAULT_SERVERLIST_URL = "https://raw.githubusercontent.com/transflo/speedtaier/main/serverlist_decrypted.json"
+DEFAULT_SERVERLIST_URL = "https://raw.githubusercontent.com/Agff45/speedtaier/main/serverlist_decrypted.json"
 
 _USE_COLOR = False
 try:
@@ -804,7 +804,7 @@ def _re_exec_in_sandbox():
         try:
             tmp = tempfile.mkdtemp(prefix="speedtaier_")
             runner = os.path.join(tmp, "run_sandbox.sh")
-            data = http_get("https://raw.githubusercontent.com/transflo/speedtaier/main/run_sandbox.sh",
+            data = http_get("https://raw.githubusercontent.com/Agff45/speedtaier/main/run_sandbox.sh",
                             timeout=20)
             with open(runner, "w", encoding="utf-8") as f:
                 f.write(data)

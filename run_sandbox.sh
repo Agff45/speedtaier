@@ -6,7 +6,7 @@ bench_os_url="https://github.com/LloydAsp/NodeQuality/releases/download/v0.0.2/B
 if uname -m | grep -Eq 'arm|aarch64'; then
     bench_os_url="https://github.com/LloydAsp/NodeQuality/releases/download/v0.0.2/BenchOs-arm.tar.gz"
 fi
-script_url="https://raw.githubusercontent.com/transflo/speedtaier/main/globalspeed_test.py"
+script_url="https://raw.githubusercontent.com/Agff45/speedtaier/main/globalspeed_test.py"
 
 CACHE_DIR="${SPEEDTAIER_CACHE:-${HOME}/.cache/speedtaier}"
 CACHE_FILE="$CACHE_DIR/$(basename "$bench_os_url")"

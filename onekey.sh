@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_URL="https://raw.githubusercontent.com/transflo/speedtaier/main"
+BASE_URL="https://raw.githubusercontent.com/Agff45/speedtaier/main"
 tmp_dir="$(mktemp -d)"
 cleanup() {
     local d
